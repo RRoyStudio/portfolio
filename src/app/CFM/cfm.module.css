@@ -1,0 +1,27 @@
+.companies{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    max-width: 90%;
+    margin: auto;
+    padding: 100px;
+}
+
+.section {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+@media (max-width: 600px) {
+    .companies{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        overflow: wrap;
+        align-items: center;
+        margin: auto;
+        padding: 20px;
+        width:30%;
+    }
+}

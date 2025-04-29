@@ -1,8 +1,27 @@
-import styles from "./page.module.css";
-import Frame from "./components/frame.js";
+import styles from "./home.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
-
+const PFrame = ({ link, src, alt, width, height, title, tag }) => {
+  return (
+    <div className={styles.frame}>
+      <Link href={link}>
+        <Image
+          className={styles.frameimg}
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          layout="responsive"
+        />
+      </Link>
+      <div className={styles.discrp}>
+        <h4>{title}</h4>
+        <p>{tag}</p>
+      </div>
+    </div>
+  );
+};
 
 
 export default function Home() {
@@ -20,7 +39,7 @@ export default function Home() {
         </h2>
       </div>
       <div className={styles.grid}>
-        <Frame
+        <PFrame
           link="/CFM"
           src="/CFM-card.png"
           alt="CFM Global"
@@ -29,7 +48,7 @@ export default function Home() {
           title="CFM Global"
           tag="Web Design & Marketing | 2025"
         />
-        <Frame
+        <PFrame
           link="/Rroy"
           src="/rroy-card.png"
           alt="Rroy"
@@ -38,7 +57,7 @@ export default function Home() {
           title="Rroy Studio"
           tag="Web & Brand Development | 2025"
         />
-        <Frame
+        <PFrame
           link="/Bones"
           src="/bones-card.png"
           alt="Bones"

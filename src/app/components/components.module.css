@@ -1,13 +1,110 @@
 
-.frame{
-    padding: 20px;
-    max-width: 516px;
-    border-radius: 30px;
+/* Header */
+
+.headerImg{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
-.frame:hover{
-    transform: scale(.9);
-    transition: all 0.5s ease;
+.headerText{
+    margin: auto;
+    padding: 0;
+    max-width: 50%;
 }
 
+.headerText h3{
+    text-align: center;
+    padding: 30px;
+}
 
+@media (max-width: 600px) {
+    .headerText{
+        max-width: 80%;
+    }
+    .headerText h3{
+        padding: 5px;
+    }
+    .headerImg{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+/* TextRight */
+
+.Rblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.Rtext{
+    max-width: 40%;
+    padding: 3vw;
+    margin: auto;
+}
+
+.Rtext h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    .Rblock{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .Rtext{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .Rtext h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/* TextLeft */
+
+.Lblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.Ltext {
+    max-width: 40%;
+    padding: 3vw;
+    margin: auto;
+}
+
+.Ltext h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    .Lblock {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .Ltext {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .Ltext h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
