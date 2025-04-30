@@ -33,7 +33,7 @@ export default function Home() {
           Omaha, NE
         </h1>
         <h2>
-          she loves coffee, goin on hikes with her dog,<br/> new
+          she loves coffee, going on hikes with her dog,<br/> new
           restaurants, and things that are designed to last! <br/> View her
           work below, or reach out via <Link href="mailto:rebecca.roy98@gmail.com" className={styles.HLink}>email</Link> or <Link href="https://www.linkedin.com/in/rrebecca-roy/" className={styles.HLink}>LinkedIn</Link>
         </h2>

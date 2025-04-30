@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 40px;
 }
 
@@ -114,4 +114,12 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5vh;
 }
