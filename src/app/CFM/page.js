@@ -62,9 +62,24 @@ export default function CFM() {
           <TextLeft
             src="/AHRbooth.png"
             alt="CFM Global new website"
-            heading="Website Development"
+            heading="Results & Impact"
             descpt="By addressing CFM Globals challenges with a strategic and structured approach, this project has significantly improved the companys online presence and brand consistency. The next phase will further strengthen its digital footprint and user experience."
-            before={["one", "two", "three"]}
+            before={[
+              "Established a modern, functional website with improved usability.",
+              "Created a unified brand identity across CFM Global and its subsidiaries.",
+              "Implemented data tracking to gain insights into website performance and visitor behavior.",
+              "Increased website engagement through targeted marketing efforts.",
+              "Laid the groundwork for a fully custom website to enhance long-term scalability and performance.",
+            ]}
+          />
+        </div>
+        <div className={styles.section}>
+          <TextRight
+            src="/cfm4.png"
+            alt="CFM Global promotional image"
+            heading="Future Development & Next Steps"
+            discrp="While the website has significantly improved over the past year, this project continues to evolve. The next phase involves developing a fully custom website using React for a dynamic and interactive front-end experience and WordPress (Headless CMS) to provide flexible content management capabilities.
+            This new approach will offer better scalability, faster performance, and a more seamless user experience. I am currently leading the development of this custom solution to enhance CFM Globals digital presence further."
           />
         </div>
       </div>

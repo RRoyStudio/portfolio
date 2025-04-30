@@ -24,7 +24,7 @@ const TextLeft =({src,alt,heading, descpt, before, after}) => {
                     ))}
                 </ul>
                 ) : null}
-
+        </div>
         
         <div className={styles.Limg}>
           <Image
@@ -37,7 +37,6 @@ const TextLeft =({src,alt,heading, descpt, before, after}) => {
           />
         </div>
       </div>
-    </div>
     )
   };
 

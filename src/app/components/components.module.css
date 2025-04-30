@@ -42,6 +42,7 @@
     max-width: 90%;
     margin: auto;
     padding: 30px;
+    align-items: center;
 }
 
 .Rtext{
@@ -51,7 +52,6 @@
 }
 
 .Rtext h3{
-    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .Ltext {
-    max-width: 40%;
+    max-width: 60%;
     padding: 3vw;
     margin: auto;
 }
@@ -91,6 +91,13 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.Ltext ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 2.5vh;
+}
+
 
 @media (max-width: 600px) {
     .Lblock {
