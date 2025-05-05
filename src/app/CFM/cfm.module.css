@@ -12,6 +12,21 @@
     margin: auto;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #003283;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
 
 @media (max-width: 600px) {
     .companies{

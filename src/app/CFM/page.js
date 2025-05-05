@@ -16,6 +16,21 @@ export default function CFM() {
             discrp="CFM Global faced several challenges with its existing website. The site was outdated, contained missing and broken links, and the company lacked direct access to make updates. Additionally, the website had low visibility, limiting its effectiveness in reaching potential customers. The goal of this project was to modernize the website, enhance its functionality, and establish a strong, cohesive brand presence across CFM Global and its affiliated companies."
           />
         </div>
+        <div className={styles.buttons}>
+          <button className={styles.button}>
+            <a href="https://www.cfmglobal.com/" target="_blank">
+              Current Website
+            </a>
+          </button>        
+          <button className={styles.button}>
+            <a
+              href="https://www.figma.com/proto/IpvWINcGmfG86YRcFdRj9V/CFM-Global?page-id=1%3A13&node-id=1-14&p=f&viewport=45%2C53%2C0.22&t=VIG5jCFOUUL6S8vp-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A14"
+              target="_blank"
+            >
+              Figma Mockup
+            </a>
+          </button>
+        </div>
         <div className={styles.companies}>
           <Image
             className={styles.PUI}
